@@ -1,0 +1,15 @@
+[package]
+name = "febase"
+version = "0.1.0"
+authors = ["Mike Axiak <mike@axiak.net>"]
+edition = "2021"
+license = "MIT"
+rust-version = "1.65"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [
+  "crates/storage",
+]
+
